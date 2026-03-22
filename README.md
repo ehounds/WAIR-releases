@@ -32,7 +32,7 @@ The installer bundles everything needed. No Node.js, no .NET Framework, no wmic 
 | Category | Fields |
 |----------|--------|
 | **Identity** | Computer Name, FQDN, Logged-in User, Full User (whoami), Domain/Workgroup |
-| **OS** | Windows Edition, Latest Windows Update (KB), Build Number, BIOS Version |
+| **OS** | Windows Edition, Windows Version (e.g. 25H2), Build Number, BIOS Version |
 | **Hardware** | CPU Model, Total RAM, Serial Number |
 | **Network** | IPv4 Address, MAC Address, Default Gateway, DNS Servers, Public IP |
 | **Status** | Uptime, Last Boot Time |
@@ -50,7 +50,9 @@ If you find WAIR useful, consider buying me a coffee:
 
 ## License
 
-MIT License with Attribution Requirement. See [LICENSE](LICENSE) for details.
+MIT License with Attribution Requirement. See [LICENSE](LICENSE) for full terms.
+
+This software is free to use, modify, and distribute with attribution. Any use, distribution, or derivative work must include clear and visible credit to the original author.
 
 > Developed by Adam Sharp of E-Hounds, Inc. — [www.ehounds.com](https://www.ehounds.com)
 
