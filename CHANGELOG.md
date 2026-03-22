@@ -2,6 +2,14 @@
 
 All notable changes to WAIR (Who Am I Really) will be documented in this file.
 
+## [1.5.0] — 2026-03-22
+
+### Fixed
+- **Config toggle freeze** — toggling field checkboxes no longer re-fetches all system info via PowerShell, eliminating the "Not Responding" hang. Field visibility is now derived from in-memory state instantly.
+
+### Changed
+- **Windows Update → Windows Version** — field now shows the OS feature version (e.g. "25H2") from the registry `DisplayVersion` instead of the last installed KB update title. Label renamed to "Windows Version".
+
 ## [1.2.0] — 2026-03-22
 
 ### Changed
